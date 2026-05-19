@@ -1,6 +1,6 @@
 "use client";
 
-import BrandMark from "@/app/illustrations/BrandMark";
+import Logo from "@/app/illustrations/Logo";
 
 interface Props {
   openOffer: () => void;
@@ -44,9 +44,7 @@ export default function Nav({ openOffer }: Props) {
             flexShrink: 0,
           }}
         >
-          <BrandMark size={28} />
-          Quick&nbsp;Close{" "}
-          <span style={{ color: "var(--ink-mute)", fontWeight: 400 }}>· MN</span>
+          <Logo height={28} />
         </a>
 
         {/* Center links */}
