@@ -16,8 +16,8 @@ const ITEMS = [
     a: "Bring it. We've bought hoarder homes, fire-damaged duplexes, condemned properties, and houses with active tenants who refuse to leave. We're flippers — that's our day job.",
   },
   {
-    q: "Are you actually buying, or are you a wholesaler?",
-    a: "We are the buyer. We close in our LLC, we use our own funds, and we keep the property to flip ourselves. We're happy to send proof of funds before you sign anything.",
+    q: "How do you buy houses?",
+    a: "We buy directly using our own funds, close in our LLC, and are happy to send proof of funds before you sign anything. Fast, simple, no surprises.",
   },
   {
     q: "Do you only buy in the south metro?",

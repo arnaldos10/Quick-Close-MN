@@ -60,9 +60,8 @@ export default function Compare() {
             <em style={{ fontStyle: "italic", color: "var(--terra)" }}>are the same.</em>
           </h2>
           <p style={{ color: "var(--ink-soft)", fontSize: 18, maxWidth: 640, lineHeight: 1.55 }}>
-            The &ldquo;wholesalers&rdquo; who paint signs on the side of the road don&rsquo;t
-            actually buy houses — they tie yours up and shop the contract. Here&rsquo;s
-            how we&rsquo;re different.
+            Not every cash buyer operates the same way. Here&rsquo;s how we stack up
+            against the typical listing process and other buyers.
           </p>
         </div>
 
@@ -154,7 +153,7 @@ export default function Compare() {
                   color: "var(--ink-soft)",
                 }}
               >
-                Wholesalers &amp; flip-the-contract folks
+                Traditional agents &amp; listing process
               </div>
             </div>
           </div>

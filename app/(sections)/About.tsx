@@ -152,9 +152,9 @@ export default function About() {
               marginBottom: 18,
             }}
           >
-            Quick Close was started by two flippers tired of paying wholesalers a
-            finder&rsquo;s fee for houses they could&rsquo;ve bought directly. We&rsquo;re
-            four people now, all based in the south metro. We answer our own phones.
+            Quick Close was built to make selling your home as simple as possible.
+            We&rsquo;re a small team based in the south metro — four people who
+            answer their own phones.
           </p>
           <p
             style={{
@@ -164,8 +164,8 @@ export default function About() {
               marginBottom: 32,
             }}
           >
-            We close on every offer we make. We don&rsquo;t assign contracts. If we say
-            we&rsquo;ll be there Tuesday at 10, we&rsquo;ll be there Tuesday at 10.
+            We close on every offer we make. If we say we&rsquo;ll be there Tuesday
+            at 10, we&rsquo;ll be there Tuesday at 10.
           </p>
 
           {/* Stats grid */}

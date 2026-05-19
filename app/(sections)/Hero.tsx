@@ -59,8 +59,8 @@ export default function Hero({ openOffer }: Props) {
               marginBottom: 32,
             }}
           >
-            Run-down. Pre-foreclosure. Inherited. We pay cash, close on your
-            timeline, and skip the wholesaler middleman.
+            Run-down. Pre-foreclosure. Inherited. We pay cash and close on your
+            timeline — no agents, no fees, no delays.
           </p>
 
           {/* Inline address form */}
