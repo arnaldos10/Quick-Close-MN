@@ -2,7 +2,7 @@ import HouseSilhouette from "@/app/illustrations/HouseSilhouette";
 import PineMark from "@/app/illustrations/PineMark";
 
 const STATS = [
-  { n: "247",    l: "Homes purchased" },
+  { n: "144",    l: "Homes purchased" },
   { n: "$48M",   l: "Cash deployed" },
   { n: "7 cities", l: "Avg active service" },
   { n: "4.9 / 5", l: "Across 89 sellers" },
@@ -91,7 +91,7 @@ export default function About() {
                   color: "var(--ink-mute)",
                 }}
               >
-                EST 2014
+                EST 2021
               </span>
             </div>
 

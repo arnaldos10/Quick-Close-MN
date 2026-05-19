@@ -56,7 +56,7 @@ export default function Footer() {
                 opacity: 0.7,
               }}
             >
-              BURNSVILLE, MN · MN-DEPT-CMRC #2014-7702
+              TWIN CITIES &amp; SOUTH METRO · MINNESOTA
             </span>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Footer() {
             952-234-8099
           </a>
           <a
-            href="mailto:hello@quickclosemn.com"
+            href="mailto:info@quickclosemn.com"
             style={{
               display: "block",
               marginBottom: 14,
@@ -100,7 +100,7 @@ export default function Footer() {
               fontSize: 15,
             }}
           >
-            hello@quickclosemn.com
+            info@quickclosemn.com
           </a>
           <div style={{ opacity: 0.7, fontSize: 14, lineHeight: 1.55 }}>
             Mon–Sat · 7am–7pm CT

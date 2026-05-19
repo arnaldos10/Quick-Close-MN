@@ -1,7 +1,7 @@
 const STATS = [
-  { n: "247",    l: "Minnesota homes purchased" },
-  { n: "12yr",   l: "Local since 2014" },
-  { n: "7 days", l: "Average close time" },
+  { n: "144",     l: "Minnesota homes purchased" },
+  { n: "2021",    l: "Local since" },
+  { n: "13 days", l: "Average close time" },
   { n: "$0",     l: "Fees, commissions, surprises" },
 ];
 

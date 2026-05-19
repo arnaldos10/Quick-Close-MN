@@ -30,7 +30,7 @@ export default function Hero({ openOffer }: Props) {
         {/* Left */}
         <div>
           <div className="eyebrow" style={{ marginBottom: 24 }}>
-            — Twin Cities &amp; South Metro · cash buyers since 2014
+            — Twin Cities &amp; South Metro · cash buyers since 2021
           </div>
 
           <h1

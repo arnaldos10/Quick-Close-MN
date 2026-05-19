@@ -31,7 +31,7 @@ const jsonLd = {
     "Minnesota cash home buyers serving the Twin Cities and South Metro. We buy houses in any condition — close in 7 days with no fees or commissions.",
   url: "https://quickclosemn.com",
   telephone: "+19522348099",
-  email: "hello@quickclosemn.com",
+  email: "info@quickclosemn.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Burnsville",
@@ -50,7 +50,7 @@ const jsonLd = {
     "Rosemount, MN",
     "Shakopee, MN",
   ],
-  foundingDate: "2014",
+  foundingDate: "2021",
   priceRange: "$$",
 };
 
