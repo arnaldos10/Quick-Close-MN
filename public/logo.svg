@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Quick Close MN modern logo</title>
+  <desc id="desc">A modern navy and gold real estate closing logo featuring a house and keyhole inside a dynamic swoosh, with Quick Close MN text.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8E7A0"/>
+      <stop offset="0.45" stop-color="#D6A842"/>
+      <stop offset="1" stop-color="#9B6F1E"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2A44"/>
+      <stop offset="1" stop-color="#071B2D"/>
+    </linearGradient>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#081521" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="none"/>
+
+  <!-- Icon group -->
+  <g transform="translate(600 305)" filter="url(#softShadow)">
+    <!-- Outer motion swoosh -->
+    <path d="M-250 132 C-207 233 -40 278 129 202 C303 124 361 -53 260 -123 C353 -61 366 101 250 213 C118 339 -117 325 -235 190 C-273 145 -279 86 -252 38 C-267 70 -267 104 -250 132Z" fill="url(#gold)"/>
+    <path d="M-245 84 C-232 -58 -83 -180 84 -169 C187 -162 268 -114 317 -40 C244 -111 146 -142 42 -126 C-136 -99 -253 38 -228 178 C-246 147 -254 118 -245 84Z" fill="url(#navy)" opacity="0.96"/>
+    <path d="M-205 135 C-150 216 3 231 132 174 C256 119 330 9 312 -85 C362 36 286 164 141 230 C-20 304 -202 272 -267 160 C-275 146 -282 130 -286 114 C-262 151 -237 164 -205 135Z" fill="url(#gold)" opacity="0.92"/>
+
+    <!-- House body -->
+    <g transform="translate(-5 -20)">
+      <path d="M-142 205 L-142 -57 L0 -205 L142 -57 L142 205 Z" fill="url(#navy)" stroke="url(#gold)" stroke-width="15" stroke-linejoin="round"/>
+      <path d="M-189 -32 L0 -230 L189 -32 L158 -17 L0 -177 L-158 -17 Z" fill="url(#navy)" stroke="#071B2D" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-190 -35 L0 -232 L190 -35" fill="none" stroke="url(#gold)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 -177 L0 205" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M-66 -70 L0 -137 L66 -70" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Keyhole / door -->
+      <path d="M-38 205 L-23 91 C-48 79 -62 53 -54 24 C-47 -2 -25 -20 0 -20 C25 -20 47 -2 54 24 C62 53 48 79 23 91 L38 205 Z" fill="url(#gold)"/>
+      <path d="M-20 205 L-10 113 H10 L20 205 Z" fill="#071B2D" opacity="0.12"/>
+
+      <!-- Windows -->
+      <g fill="#F9E9A7">
+        <rect x="-105" y="-59" width="25" height="29" rx="3"/>
+        <rect x="-69" y="-59" width="25" height="29" rx="3"/>
+        <rect x="-105" y="-18" width="25" height="29" rx="3"/>
+        <rect x="-69" y="-18" width="25" height="29" rx="3"/>
+        <rect x="80" y="-59" width="25" height="29" rx="3"/>
+        <rect x="116" y="-59" width="25" height="29" rx="3"/>
+        <rect x="80" y="-18" width="25" height="29" rx="3"/>
+        <rect x="116" y="-18" width="25" height="29" rx="3"/>
+        <rect x="-32" y="-131" width="26" height="32" rx="3"/>
+        <rect x="12" y="-131" width="26" height="32" rx="3"/>
+        <rect x="-32" y="-84" width="26" height="32" rx="3"/>
+        <rect x="12" y="-84" width="26" height="32" rx="3"/>
+      </g>
+
+      <!-- Chimney -->
+      <path d="M-139 -73 L-139 -158 Q-139 -169 -128 -169 L-101 -169 Q-90 -169 -90 -158 L-90 -119 Z" fill="url(#gold)"/>
+    </g>
+
+    <!-- Key tail accent -->
+    <path d="M83 199 C116 181 134 166 160 151" fill="none" stroke="url(#gold)" stroke-width="19" stroke-linecap="round"/>
+    <circle cx="174" cy="143" r="12" fill="url(#gold)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g text-anchor="middle">
+    <text x="600" y="665" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="105" font-weight="800" letter-spacing="5" fill="#09233B">QUICK CLOSE</text>
+    <g transform="translate(600 740)">
+      <line x1="-230" y1="-10" x2="-82" y2="-10" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+      <text x="0" y="17" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="8" fill="url(#gold)">MN</text>
+      <line x1="82" y1="-10" x2="230" y2="-10" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

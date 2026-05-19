@@ -2,24 +2,24 @@
 
 @theme inline {
   /* ── Brand colors ── */
-  --color-cream:       #F4EFE6;
-  --color-cream-deep:  #ECE4D4;
-  --color-paper:       #FBF8F1;
-  --color-ink:         #15171C;
-  --color-ink-soft:    #3A3D45;
-  --color-ink-mute:    #6E7079;
-  --color-line:        #2A2D33;
-  --color-line-soft:   rgba(21,23,28,.12);
+  --color-cream:       #F5EED8;
+  --color-cream-deep:  #EDE3C4;
+  --color-paper:       #FFFDF5;
+  --color-ink:         #0B2A44;
+  --color-ink-soft:    #1C3A56;
+  --color-ink-mute:    #6B8BA4;
+  --color-line:        #0B2A44;
+  --color-line-soft:   rgba(11,42,68,.12);
 
-  --color-blue:        #1C3D5A;
-  --color-blue-2:      #2C5577;
-  --color-blue-3:      #6FA0C4;
-  --color-blue-wash:   #E6EEF4;
+  --color-blue:        #0B2A44;
+  --color-blue-2:      #1C3A56;
+  --color-blue-3:      #6B8BA4;
+  --color-blue-wash:   #E4EDF5;
 
-  --color-terra:       #C66B3D;
-  --color-terra-deep:  #9E4F26;
+  --color-terra:       #D6A842;
+  --color-terra-deep:  #9B6F1E;
   --color-moss:        #5A6B3F;
-  --color-gold:        #D4A845;
+  --color-gold:        #D6A842;
 
   /* ── Typography ── */
   --font-display: var(--font-bricolage), ui-serif, Georgia, serif;
@@ -40,36 +40,36 @@
 
 /* ── CSS custom props for inline style references ── */
 :root {
-  --cream:       #F4EFE6;
-  --cream-deep:  #ECE4D4;
-  --paper:       #FBF8F1;
-  --ink:         #15171C;
-  --ink-soft:    #3A3D45;
-  --ink-mute:    #6E7079;
-  --line:        #2A2D33;
-  --line-soft:   rgba(21,23,28,.12);
-  --blue:        #1C3D5A;
-  --blue-2:      #2C5577;
-  --blue-3:      #6FA0C4;
-  --blue-wash:   #E6EEF4;
-  --terra:       #C66B3D;
-  --terra-deep:  #9E4F26;
+  --cream:       #F5EED8;
+  --cream-deep:  #EDE3C4;
+  --paper:       #FFFDF5;
+  --ink:         #0B2A44;
+  --ink-soft:    #1C3A56;
+  --ink-mute:    #6B8BA4;
+  --line:        #0B2A44;
+  --line-soft:   rgba(11,42,68,.12);
+  --blue:        #0B2A44;
+  --blue-2:      #1C3A56;
+  --blue-3:      #6B8BA4;
+  --blue-wash:   #E4EDF5;
+  --terra:       #D6A842;
+  --terra-deep:  #9B6F1E;
   --moss:        #5A6B3F;
-  --gold:        #D4A845;
+  --gold:        #D6A842;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: #F4EFE6;
-  color: #15171C;
+  background-color: #F5EED8;
+  color: #0B2A44;
 }
 
 body {
   font-family: var(--font-sans);
   font-size: 17px;
   line-height: 1.5;
-  background-color: #F4EFE6;
-  color: #15171C;
+  background-color: #F5EED8;
+  color: #0B2A44;
   -webkit-font-smoothing: antialiased;
 }
 

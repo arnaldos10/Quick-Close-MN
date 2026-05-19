@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@/app/illustrations/Logo";
+import Image from "next/image";
 
 interface Props {
   openOffer: () => void;
@@ -15,7 +15,7 @@ export default function Nav({ openOffer }: Props) {
         zIndex: 100,
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
-        background: "color-mix(in oklab, #F4EFE6 88%, transparent)",
+        background: "color-mix(in oklab, #F5EED8 88%, transparent)",
         borderBottom: "1px solid rgba(21,23,28,.08)",
       }}
     >
@@ -25,7 +25,7 @@ export default function Nav({ openOffer }: Props) {
           display: "flex",
           alignItems: "center",
           gap: 32,
-          height: 64,
+          height: 88,
         }}
       >
         {/* Brand */}
@@ -44,7 +44,7 @@ export default function Nav({ openOffer }: Props) {
             flexShrink: 0,
           }}
         >
-          <Logo height={28} />
+          <Image src="/logo.svg" alt="Quick Close MN" height={80} width={107} style={{ objectFit: "contain" }} />
         </a>
 
         {/* Center links */}
