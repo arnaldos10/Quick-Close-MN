@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Brand colors ── */
+  --color-cream:       #F4EFE6;
+  --color-cream-deep:  #ECE4D4;
+  --color-paper:       #FBF8F1;
+  --color-ink:         #15171C;
+  --color-ink-soft:    #3A3D45;
+  --color-ink-mute:    #6E7079;
+  --color-line:        #2A2D33;
+  --color-line-soft:   rgba(21,23,28,.12);
+
+  --color-blue:        #1C3D5A;
+  --color-blue-2:      #2C5577;
+  --color-blue-3:      #6FA0C4;
+  --color-blue-wash:   #E6EEF4;
+
+  --color-terra:       #C66B3D;
+  --color-terra-deep:  #9E4F26;
+  --color-moss:        #5A6B3F;
+  --color-gold:        #D4A845;
+
+  /* ── Typography ── */
+  --font-display: var(--font-bricolage), ui-serif, Georgia, serif;
+  --font-sans:    var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    var(--font-jetbrains), ui-monospace, "Courier New", monospace;
+
+  /* ── Radii ── */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   24px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ── */
+  --shadow-card:   0 20px 60px rgba(28,61,90,.12);
+  --shadow-subtle: 0 10px 30px rgba(28,61,90,.08);
+}
+
+/* ── CSS custom props for inline style references ── */
+:root {
+  --cream:       #F4EFE6;
+  --cream-deep:  #ECE4D4;
+  --paper:       #FBF8F1;
+  --ink:         #15171C;
+  --ink-soft:    #3A3D45;
+  --ink-mute:    #6E7079;
+  --line:        #2A2D33;
+  --line-soft:   rgba(21,23,28,.12);
+  --blue:        #1C3D5A;
+  --blue-2:      #2C5577;
+  --blue-3:      #6FA0C4;
+  --blue-wash:   #E6EEF4;
+  --terra:       #C66B3D;
+  --terra-deep:  #9E4F26;
+  --moss:        #5A6B3F;
+  --gold:        #D4A845;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F4EFE6;
+  color: #15171C;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #F4EFE6;
+  color: #15171C;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* ── Skip-to-content ── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  width: auto;
+  height: auto;
+  padding: 12px 20px;
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: 8px;
+  z-index: 9999;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ── Focus rings ── */
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── Reveal animations ── */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Modal animations ── */
+@keyframes fade-in  { from { opacity: 0 } to { opacity: 1 } }
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px) }
+  to   { opacity: 1; transform: translateY(0) }
+}
+
+/* ── Floating CTA ── */
+@keyframes slide-up-cta {
+  from { opacity: 0; transform: translateY(20px) translateX(-50%) }
+  to   { opacity: 1; transform: translateY(0) translateX(-50%) }
+}
+
+/* ── Form fields ── */
+.field {
+  display: block;
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid rgba(21,23,28,.12);
+  border-radius: 8px;
+  background: var(--paper);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--ink);
+  transition: border-color .15s;
+}
+.field:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(28,61,90,.1);
+}
+.field::placeholder {
+  color: var(--ink-mute);
+}
+
+/* ── Content wrapper ── */
+.wrap {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(20px, 5vw, 80px);
+  padding-right: clamp(20px, 5vw, 80px);
+}
+
+/* ── Mono eyebrow ── */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--ink-mute);
+  display: block;
+  margin-bottom: 16px;
+}
